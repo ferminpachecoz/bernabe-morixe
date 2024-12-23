@@ -1,0 +1,37 @@
+:root {
+  --primary: #3c3e41;
+  --accent: #32CD32;
+  --background: linear-gradient(145deg, #006400, #32CD32);
+  --font-secondary: "Montserrat", sans-serif;
+  --font-primary: "Poppins", sans-serif;
+}
+body{
+  overflow-x: hidden;
+  background-color: #ecf0f3c0 !important;
+}
+a{
+  text-decoration: none !important;
+  color: inherit;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none; /* Mantiene sin subrayado en el hover o focus */
+  color: inherit ;        /* Mantiene el color en cualquier estado */
+}
+.section-title{
+  color: var(--primary);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.section-subtitle{
+  color: var(--accent);
+  letter-spacing: 2px;
+  display: block;
+  line-height: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-family: var(--font-secondary);
+  font-size: 14px;
+}

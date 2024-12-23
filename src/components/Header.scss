@@ -1,0 +1,22 @@
+.header{
+  background-color: #ECF0F3;
+  padding: 10px 20px;
+  box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 100000000;
+  .navigation{
+    nav{
+      .nav-link{
+        padding: 15px;
+        font-family: var(--font-secondary);
+        text-transform: uppercase;
+        font-size: 14px;
+        color: var(--primary);
+        font-weight: 500;
+      }
+    }
+  }
+}

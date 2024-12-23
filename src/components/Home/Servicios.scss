@@ -1,0 +1,52 @@
+.servicios{
+  padding: 50px;
+  .section-title, .section-subtitle{
+    text-align: center;
+  }
+  .wrapper{
+    padding: 1em;
+    height: 100%;
+    box-shadow: 5px 5px 15px #b3bdcc, -5px -5px 15px #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    .image{
+      overflow: hidden;
+      border-radius: 8px;
+      height: 250px;
+      img{
+        border-radius: 8px;
+        width: 100%;
+      }
+    }
+    .content{
+      h3{
+        margin: 1em 0em;
+        color: #1e2125;
+        font-size: 23px;
+        font-family: var(--font-secondary);
+        font-weight: 600;
+        transition: 0.4s ease;
+      }
+      p{
+        margin-bottom: 1em;
+        font-family: var(--font-secondary);
+        color: var(--primary);
+        font-size: 16px;
+        line-height: 28px;
+        transition: 0.4s ease;
+      }
+    }
+  }
+  .wrapper:hover{
+    background-color: var(--accent);
+    .content{
+      h3{
+        color: white;
+      }
+      p{
+        color: white;
+      }
+    }
+  }
+}

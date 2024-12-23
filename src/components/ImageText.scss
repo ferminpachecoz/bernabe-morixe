@@ -1,0 +1,27 @@
+.image-text{
+  padding: 100px;
+  .image{
+    padding: 20px;
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);;
+    img{
+      border-radius: 8px;
+      width: 100%;
+    }
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 4em 4em 0em 4em;
+    .content{
+      color: var(--primary);
+      margin-bottom: 20px;
+      margin-top: 23px;
+      font-size: 16px;
+      line-height: 34px;
+      font-family: var(--font-secondary);
+    }
+  }
+}
