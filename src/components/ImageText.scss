@@ -25,3 +25,12 @@
     }
   }
 }
+@media (max-width: 425px){
+  .image-text{
+    padding: 1em;
+    margin-top: 10em !important;
+    .text{
+      padding: 2em;
+    }
+  }
+}

@@ -169,10 +169,10 @@ let data = [
         title: "Casos de uso",
         content:`
         <ul>
-          <li>Pacientes en internación hospitalaria que buscan complementar su recuperación.</li>
-          <li>Personas que atraviesan tratamientos oncológicos (cirugías, quimioterapia, radiación).</li>
-          <li>Aquellos con dificultades para conciliar el sueño, que sufren de estrés o ansiedad.</li>
-          <li>Pacientes con sistemas inmunológicos debilitados o condiciones crónicas de dolor.</li>
+          <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">Pacientes en internación hospitalaria que buscan complementar su recuperación.</li>
+          <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">Personas que atraviesan tratamientos oncológicos (cirugías, quimioterapia, radiación).</li>
+          <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">Aquellos con dificultades para conciliar el sueño, que sufren de estrés o ansiedad.</li>
+          <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">Pacientes con sistemas inmunológicos debilitados o condiciones crónicas de dolor.</li>
         </ul>
         `
       },
@@ -180,10 +180,12 @@ let data = [
         title: "Resultados esperados",
         content:`
         <ul>
-          <li>Recuperación energética y bienestar.</li>
-          <li>Reducción del estrés y la ansiedad.</li>
-          <li>Apoyo en tratamientos médicos convencionales, mejorando su eficacia.</li>
-          <li>Mejoras en el sueño y en el estado emocional.</li>
+          <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+          Recuperación energética y bienestar.
+          </li>
+          <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">Reducción del estrés y la ansiedad.</li>
+          <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">Apoyo en tratamientos médicos convencionales, mejorando su eficacia.</li>
+          <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">Mejoras en el sueño y en el estado emocional.</li>
         </ul>
         `
       }

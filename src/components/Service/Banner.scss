@@ -18,3 +18,12 @@
     margin-bottom: 0;
   }
 }
+@media (max-width: 425px){
+  .banner{
+    padding: 1em;
+    background-size: contain;
+    h1{
+      font-size: 36px;
+    }
+  }
+}

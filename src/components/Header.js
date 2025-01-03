@@ -1,16 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Header.scss";
 import { HashLink } from 'react-router-hash-link';
 
+
 export default function Header() {
+  const [display,setDisplay] = useState(false)
+
   return (
     <div className='header row g-0 align-items-center'>
-      <div className='col-5 image'>
+      <div className='col-6 col-lg-5 image'>
         <HashLink>
-          <img src="https://rainbowit.net/html/inbio/assets/images/logo/logos-circle.png" alt="Foto de perfil" />
+          <img src="/foto-perfil-round.png" alt="Foto de perfil" />
         </HashLink>
       </div>
-      <div className='col-7 navigation'>
+      <div className='burger-icon col-6'>
+        <img onClick={()=>setDisplay(!display)} src="/menu.png" alt="Burger Icon" />
+      </div>
+      <div className={`col-6 col-lg-7 navigation ${display?"display":""}`}>
         <nav className='d-flex justify-content-end align-items-center'>
           <HashLink to="/#inicio" className='nav-link'>
             Inicio

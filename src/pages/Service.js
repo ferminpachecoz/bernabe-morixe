@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import "./Service.scss"
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { useParams } from 'react-router-dom'
@@ -29,7 +30,7 @@ export default function Service() {
         order1="order-1"
         order2="order-2" 
       />
-      <div style={{padding: `${data && data.id==2?"100px 30px":"100px"}`}}>
+      <div className={data && data.id==2?"pad1":"pad2"}>
         <p className='section-subtitle' style={{textAlign: "center"}}>{data?data.paragraphs[1].subtitle:null}</p>
         <p className='section-title' style={{textAlign: "center"}}>{data?data.paragraphs[1].title:null}</p>
         <WrapperSimpleCards array={data?data.paragraphs[1].list:null} />
@@ -54,7 +55,7 @@ export default function Service() {
         :""
       }
       {data && data.paragraphs[4]?
-        <div style={{padding: `${data && data.id==2?"100px 30px":"100px"}`}}>
+      <div className={data && data.id==2?"pad1":"pad2"}>
         <p className='section-subtitle' style={{textAlign: "center"}}>{data?data.paragraphs[4].subtitle:null}</p>
         <p className='section-title' style={{textAlign: "center"}}>{data?data.paragraphs[4].title:null}</p>
         <WrapperSimpleCards array={data?data.paragraphs[4].list:null} />

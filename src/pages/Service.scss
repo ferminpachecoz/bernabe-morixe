@@ -1,0 +1,14 @@
+.pad1{
+  padding: 100px 30px;
+}
+.pad2{
+  padding: 100px;
+}
+@media (max-width: 425px){
+  .pad1{
+    padding: 1em;
+  }
+  .pad2{
+    padding: 1em;
+  }
+}

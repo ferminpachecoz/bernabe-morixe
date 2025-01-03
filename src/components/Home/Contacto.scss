@@ -69,9 +69,15 @@
         transition: background-color 0.5s ease;
       }
       button:hover{
-        background-color: var(--accent);
+        background-color: var(--mostaza);
         color: white;
       }
     }
+  }
+}
+@media (max-width: 425px){
+  .contacto{
+    padding: 1em;
+    margin-top: 10em;
   }
 }
