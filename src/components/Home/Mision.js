@@ -22,7 +22,7 @@ export default function Mision() {
 ]
   return (
     <div className='mision' id='mision'>
-      <p className='section-subtitle'>Guía hacia plenitud, libertad y armonía personal</p>
+      <p className='section-subtitle'>Guía hacia plenitud, vitalidad y armonía personal</p>
       <h2 className='section-title'>Mi Misión</h2>
       <WrapperSimpleCards array={array} />
     </div>

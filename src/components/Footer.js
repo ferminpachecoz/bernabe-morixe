@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <hr/>
-      <p>© 2022. All rights reserved by Bernabé Morixe.</p>
+      <p>© 2025. All rights reserved by Bernabé Morixe.</p>
     </div>
   )
 }

@@ -10,8 +10,9 @@ export default function MainBanner() {
         <img src="banner-img.png" className='slide-image' alt="Prueba de banner" loading='eager'></img>
       </picture>
       <div className='wrapper'>
-        <h1 className='title'>Bernabé Morixe</h1>
-        <h2 className='subtitle'>Psicólogo especializado en psicoterapia</h2>
+        <h1 className='title'>Anibal Bernabé Morixe</h1>
+        <h2 className='subtitle'>Lic. En Psicología</h2>
+        <h2 className='subtitle'>M.N.: 48.987 - Bs As. Argentina</h2>
       </div>
     </div>
   )
