@@ -16,7 +16,7 @@ export default function Header() {
       <div className='burger-icon col-6'>
         <img onClick={()=>setDisplay(!display)} src="/menu.png" alt="Burger Icon" />
       </div>
-      <div className={`col-6 col-lg-7 navigation ${display?"display":""}`}>
+      <div className={`col-12 col-lg-7 navigation ${display?"display":""}`}>
         <nav className='d-flex justify-content-end align-items-center'>
           <HashLink to="/#inicio" className='nav-link'>
             Inicio
@@ -27,7 +27,16 @@ export default function Header() {
           <HashLink to="/#about-me" className='nav-link'>
             Sobre mi
           </HashLink>
-          <HashLink to="/#servicios" className='nav-link'>
+          <HashLink to="/service/1" className='nav-link switch-2'>
+            Clínica Individual
+          </HashLink>
+          <HashLink to="/service/2" className='nav-link switch-2'>
+            Talleres y Espacio Grupales
+          </HashLink>
+          <HashLink to="/service/3" className='nav-link switch-2'>
+            Sanación vibracional a distancia con tecnología Cuántica.
+          </HashLink>
+          <HashLink to="/#servicios" className='nav-link switch-1'>
             Servicios
           </HashLink>
           <HashLink to="/#contacto" className='nav-link'>
