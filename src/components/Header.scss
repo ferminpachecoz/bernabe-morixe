@@ -21,6 +21,23 @@
       .switch-2{
         display: none;
       }
+      .switch-1{
+        position: relative;
+        .servicios-header{
+          position: absolute;
+          top: 45px;
+          left: -15px;
+          background-color: white;
+          padding: 1em 1em 0em 1em;
+          border-radius: 8px;
+          width: max-content;
+          a{
+            display: block;
+            color: var(--mostaza);
+            margin-bottom: 1em;
+          }
+        }
+      }
     }
   }
   .burger-icon{

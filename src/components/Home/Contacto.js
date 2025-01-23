@@ -15,12 +15,11 @@ export default function Contacto() {
       <div className='row g-5 mt-5'>
         <div className='col-12 col-lg-5' data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="top-center">
           <div className='wrapper'>
-            <img src="imagen5.jpg" alt="" />
+            <img src="foto-perfil-horizontal.jpg" alt="" />
             <p className='title'>Bernabé Morixe</p>
             <p>Psicólogo Clínico</p>
-            <p>I am available for freelance work. Connect with me via and call in to my account.</p>
-            <p>Phone: +01234567890</p>
-            <p>Email: admin@example.com</p>
+            <p>Atencion On Line: San Isidro, Bs As, Argentina / Tandil, Bs As, Argentina</p>
+            <p>WhatsApp: +54 9 11 6353-9111</p>
           </div>
         </div>
         <div className='col-12 col-lg-7' data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="top-center">

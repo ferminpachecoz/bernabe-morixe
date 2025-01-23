@@ -23,7 +23,7 @@ export default function Mision() {
   return (
     <div className='mision' id='mision'>
       <h2 className='section-title'>Mi Misión</h2>
-      <p>Acompañar a mis pacientes a:</p>
+      <p className='sub-text'>Acompañar a mis pacientes a...</p>
       <WrapperSimpleCards array={array} />
     </div>
   )
