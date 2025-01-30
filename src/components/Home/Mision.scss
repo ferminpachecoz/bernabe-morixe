@@ -8,7 +8,7 @@
   }
   .sub-text{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 26px;
     color: var(--primary);
   }
   .wrapper{
@@ -19,20 +19,6 @@
     height: 100%;
     position: relative;
     transition: background-color 0.4s ease, transform 0.3s ease;
-    &:hover {
-      background-color: var(--accent); /* Cambia el fondo al pasar el mouse */
-      transform: translateY(-10px);
-    }
-    &:hover p{
-      color: white;
-    }
-    &:hover .img img:first-child {
-      opacity: 0; /* Oculta la primera imagen al hacer hover en .wrapper */
-    }
-  
-    &:hover .img img:nth-child(2) {
-      opacity: 1; /* Muestra la segunda imagen al hacer hover en .wrapper */
-    }
     .img{
       display: flex;
       justify-content: center;

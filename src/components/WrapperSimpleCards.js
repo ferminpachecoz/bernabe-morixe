@@ -19,7 +19,6 @@ export default function WrapperSimpleCards({array}) {
           <div className='wrapper' data-aos="zoom-in-up" data-aos-duration={ix*1000}>
             <div className='img'>
               <img src={item.icon} alt="" />
-              <img src={item.iconHover} alt="" />
             </div>
             {item.title &&
               <p className='title'>{item.title}</p>

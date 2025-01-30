@@ -6,7 +6,7 @@ let data = [
     paragraphs: [
       {
         title: "Psicología Clínica",
-        content: "Te ofrezco un espacio de escucha profesional y confidencial para explorar tus inquietudes, conectar con un mayor sentido de vida y descubrir recursos internos que te impulsen hacia la plenitud. A través de un proceso terapéutico personalizado, trabajamos juntos para superar desafíos emocionales, recuperar tu fuerza y potenciar tu vitalidad, construyendo una vida más equilibrada y significativa."
+        content: "Te ofrezco un espacio de escucha, atención y trabajo personal. Mi objetivo: que puedas conocerte mejor, ganar claridad en cómo te ubicas en tus vínculos más significativos, reconectar con tu fuerza interna y acompañarte a vivir una vida en plenitud y con sentido."
       },
       {
         title: "Mis áreas de especialización incluyen",
@@ -14,25 +14,21 @@ let data = [
         list: [
           {
             title: "Ansiedad y estrés",
-            text: "Estrategias prácticas para gestionar preocupaciones, reducir tensiones y recuperar un estado de tranquilidad, vitalidad y conexión con tu sentido de vida.",
             icon: "/icons/anxiety.png",
             iconHover: "/icons/anxiety-hover.png"
           },
           {
             title: "Procesos de duelo y cambio",
-            text: "Acompañamiento en momentos difíciles para encontrar sentido, equilibrio emocional y nuevas perspectivas.",
             icon: "/icons/equilibrium.png",
             iconHover: "/icons/equilibrium-hover.png"
           },
           {
             title: "Relaciones interpersonales",
-            text: "Mejora de vínculos afectivos, comunicación efectiva y resolución de conflictos, fortaleciendo relaciones más significativas.",
             icon: "/icons/empathetic.png",
             iconHover: "/icons/empathetic-hover.png"
           },
           {
             title: "Desarrollo personal",
-            text: "Fortalecimiento de la autoestima, la confianza y la capacidad de tomar decisiones alineadas con tus valores y propósito.",
             icon: "/icons/self-confidence.png",
             iconHover: "/icons/self-confidence-hover.png"
           }
@@ -41,11 +37,11 @@ let data = [
       {
         title: "Población con la que trabajo",
         subtitle: "¿Con quién trabajo?",
-        content: "Ofrezco acompañamiento psicológico a adolescentes, jóvenes y adultos en diferentes etapas de sus vidas. También brindo orientación a padres que buscan fortalecer su rol y enfrentar desafíos en la crianza de sus hijos. Trabajo tanto de manera presencial en Tandil y San Isidro como en modalidad online, ofreciendo flexibilidad para adaptarme a tus necesidades y circunstancias."
+        content: "Ofrezco acompañamiento psicológico a adolescentes, jóvenes y adultos en diferentes etapas de sus vidas. También brindo orientación a padres que buscan fortalecer su rol y enfrentar desafíos en la crianza de sus hijos.<p>Trabajo tanto de manera presencial en <strong>Tandil y San Isidro</strong> como en modalidad <strong>online</strong>.</p>"
       },
       {
         title: "Enfoque y herramientas",
-        content: "Mi orientación psicológica combina el enfoque humanista-existencial, que pone en el centro la búsqueda de sentido de vida y el desarrollo de todo tu potencial, con una perspectiva sistémica que considera el impacto de los vínculos y las dinámicas familiares que nos atraviesan. Integro también herramientas del focusing, la terapia cognitiva y la psicología positiva. A través de este enfoque, acompaño a mis pacientes a comprender cómo sus relaciones y experiencias dan forma a su historia personal, ayudándote a generar cambios significativos y alineados con tu propósito."
+        content: "Mi orientación psicológica combina el enfoque <strong>humanista-existencial</strong>, que pone en el centro la <strong>búsqueda de sentido de vida</strong> y el <strong>desarrollo de todo tu potencial</strong>, con una perspectiva sistémica que considera el impacto de los <strong>vínculos y las dinámicas familiares</strong> que nos atraviesan. <p><strong>Integro también herramientas del focusing, la terapia cognitiva, la neuropsicología, las constelaciones familiares y tratamientos cuánticos</strong>. A través de este enfoque, acompaño a mis pacientes a comprender cómo sus relaciones y experiencias dan forma a su historia personal, ayudándote a generar cambios significativos y alineados con su propósito.</p>"
       }
     ],
     images: ["/services/service-1.png","/services/service-2.png", "/services/service-3.png"]
@@ -57,15 +53,15 @@ let data = [
     paragraphs: [
       {
         title: "¿Qué son?",
-        content: "Los talleres y espacios grupales son una oportunidad única para explorar temas relevantes, aprender herramientas prácticas y nutrirnos de las experiencias compartidas con otros. La dinámica grupal no solo facilita el aprendizaje, sino que también fomenta la empatía, el apoyo mutuo y la posibilidad de redescubrir recursos internos que a veces desconocemos."
+        content: "Los talleres y espacios grupales proponen una oportunidad única para explorar temas relevantes, aprender herramientas prácticas y nutrirnos de las experiencias compartidas con otros. La dinámica grupal no solo facilita el aprendizaje, sino que también fomenta la empatía, el apoyo mutuo y la posibilidad de crecer de la diversidad de miradas y perspectivas."
       },
       {
-        title: "Experiencia en diversas dinámicas como:",
+        title: "Experiencia en diversas dinámicas...",
         list:[
           {
-            text: "Acompañamiento grupal a jóvenes en etapa de la pandemia.",
-            icon: "/icons/users.png",
-            iconHover: "/icons/users-hover.png"
+            text: "Taller de crecimiento personal.",
+            icon: "/icons/plant.png",
+            iconHover: "/icons/plant-hover.png"
           },
           {
             text: "Talleres de Educación Sexual y Educación para el Amor.",
@@ -73,20 +69,20 @@ let data = [
             iconHover: "/icons/love-hover.png"
           },
           {
-            text: "Intervenciones en comunidades vulnerables.",
+            text: "Espacio grupal terapéutico para jóvenes en etapa de la pandemia.",
+            icon: "/icons/users.png",
+            iconHover: "/icons/users-hover.png"
+          },
+          {
+            text: "Intervenciones y talleres en comunidades vulnerables.",
             icon: "/icons/network.png",
             iconHover: "/icons/network-hover.png"
           },
           {
-            text: "Talleres para padres, ofreciendo orientación en los desafíos de la crianza.",
+            text: "Talleres de orientación a padres.",
             icon: "/icons/parenting.png",
             iconHover: "/icons/parenting-hover.png"
           },
-          {
-            text: "Taller de crecimiento personal.",
-            icon: "/icons/plant.png",
-            iconHover: "/icons/plant-hover.png"
-          }
         ]
       },
       {

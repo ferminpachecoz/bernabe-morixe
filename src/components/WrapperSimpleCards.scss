@@ -1,49 +1,17 @@
 .wrapper-simple-cards{
   .wrapper{
-     padding: 1em;
+     padding: 2em 1em;
      box-shadow: 5px 5px 15px #b3bdcc, -5px -5px 15px #ffffff;
      border-radius: 8px;
      background-color: rgb(236, 236, 236);
      height: 100%;
      position: relative;
      transition: background-color 0.4s ease, transform 0.3s ease;
-     &:hover {
-       background-color: var(--accent); /* Cambia el fondo al pasar el mouse */
-       transform: translateY(-10px);
-     }
-     &:hover p{
-       color: white;
-     }
-     &:hover .img img:first-child {
-       opacity: 0; /* Oculta la primera imagen al hacer hover en .wrapper */
-     }
- 
-     &:hover .img img:nth-child(2) {
-       opacity: 1; /* Muestra la segunda imagen al hacer hover en .wrapper */
-     }
      .img{
        display: flex;
        justify-content: center;
        position: relative;
-       margin-bottom: calc(100px + 2em);
-       img {
-         position: absolute;
-         top: 0;
-         left: 0;
-         width: 100px;
-         height: 100px;
-         left: 50%;
-         transform: translateX(-50%);
-         transition: opacity 0.4s ease;
- 
-         &:first-child {
-           opacity: 1; /* Imagen predeterminada visible */
-         }
- 
-         &:nth-child(2) {
-           opacity: 0; /* Imagen hover oculta inicialmente */
-         }
-       }
+       margin-bottom: 2em;
      }
      p{
        color: var(--primary);
