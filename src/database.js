@@ -6,10 +6,10 @@ let data = [
     paragraphs: [
       {
         title: "Psicología Clínica",
-        content: "Te ofrezco un espacio de escucha, atención y trabajo personal. Mi objetivo: que puedas conocerte mejor, ganar claridad en cómo te ubicas en tus vínculos más significativos, reconectar con tu fuerza interna y acompañarte a vivir una vida en plenitud y con sentido."
+        content: "Te ofrezco un espacio de escucha, atención y trabajo personal. Mi <strong>objetivo</strong>: que puedas <strong>conocerte mejor</strong>, ganar claridad en cómo te ubicas en tus <strong>vínculos</strong> más significativos, reconectar con tu <strong>fuerza interna</strong> y acompañarte a vivir una vida en <strong>plenitud y con sentido</strong>."
       },
       {
-        title: "Mis áreas de especialización incluyen",
+        title: "Mis áreas de acompañamiento incluyen:",
         subtitle: "Especialización",
         list: [
           {
@@ -31,13 +31,18 @@ let data = [
             title: "Desarrollo personal",
             icon: "/icons/self-confidence.png",
             iconHover: "/icons/self-confidence-hover.png"
-          }
+          },
+          {
+            title: "Vida con Sentido",
+            icon: "/icons/compass.png",
+            iconHover: "/icons/self-confidence-hover.png"
+          },
         ]
       },
       {
         title: "Población con la que trabajo",
         subtitle: "¿Con quién trabajo?",
-        content: "Ofrezco acompañamiento psicológico a adolescentes, jóvenes y adultos en diferentes etapas de sus vidas. También brindo orientación a padres que buscan fortalecer su rol y enfrentar desafíos en la crianza de sus hijos.<p>Trabajo tanto de manera presencial en <strong>Tandil y San Isidro</strong> como en modalidad <strong>online</strong>.</p>"
+        content: "Ofrezco acompañamiento psicológico a <strong>adolescentes, jóvenes y adultos</strong> en diferentes etapas de sus vidas. También brindo <strong>orientación a padres</strong> que buscan fortalecer su rol y enfrentar desafíos en la crianza de sus hijos.<p>Trabajo tanto de manera <strong>presencial en Tandil y San Isidro</strong> como en <strong>modalidad online</strong>.</p>"
       },
       {
         title: "Enfoque y herramientas",
@@ -53,23 +58,23 @@ let data = [
     paragraphs: [
       {
         title: "¿Qué son?",
-        content: "Los talleres y espacios grupales proponen una oportunidad única para explorar temas relevantes, aprender herramientas prácticas y nutrirnos de las experiencias compartidas con otros. La dinámica grupal no solo facilita el aprendizaje, sino que también fomenta la empatía, el apoyo mutuo y la posibilidad de crecer de la diversidad de miradas y perspectivas."
+        content: "Los talleres y espacios grupales proponen una oportunidad única para explorar temas relevantes, <strong>aprender herramientas prácticas</strong> y <strong>nutrirnos de las experiencias compartidas</strong> con otros. La dinámica grupal no solo facilita el aprendizaje, sino que también fomenta la <strong>empatía</strong>, el <strong>apoyo</strong> mutuo y la posibilidad de crecer de la diversidad de <strong>miradas y perspectivas</strong>."
       },
       {
-        title: "Experiencia en diversas dinámicas...",
+        title: "Experiencia en diversas temáticas como:",
         list:[
           {
-            text: "Taller de crecimiento personal.",
+            text: "Talleres de crecimiento personal (Perspectiva Sistémica - Constelaciones Familiares).",
             icon: "/icons/plant.png",
             iconHover: "/icons/plant-hover.png"
           },
           {
-            text: "Talleres de Educación Sexual y Educación para el Amor.",
-            icon: "/icons/love.png",
-            iconHover: "/icons/love-hover.png"
+            text: "Talleres de orientación a padres.",
+            icon: "/icons/parenting.png",
+            iconHover: "/icons/parenting-hover.png"
           },
           {
-            text: "Espacio grupal terapéutico para jóvenes en etapa de la pandemia.",
+            text: "Espacio grupal terapéutico para jóvenes.",
             icon: "/icons/users.png",
             iconHover: "/icons/users-hover.png"
           },
@@ -79,15 +84,15 @@ let data = [
             iconHover: "/icons/network-hover.png"
           },
           {
-            text: "Talleres de orientación a padres.",
-            icon: "/icons/parenting.png",
-            iconHover: "/icons/parenting-hover.png"
+            text: "Talleres de Educación Sexual y Educación para el Amor.",
+            icon: "/icons/love.png",
+            iconHover: "/icons/love-hover.png"
           },
         ]
       },
       {
         title: "¿Cómo funciona?",
-        content: "Cada encuentro se diseña con un enfoque participativo y reflexivo, adaptado a las necesidades del grupo, con el objetivo de facilitar un espacio de crecimiento personal y colectivo."
+        content: "Cada encuentro se diseña con un enfoque <strong>participativo y reflexivo</strong>, adaptado a las necesidades del grupo, con el objetivo de facilitar un espacio de <strong>crecimiento personal y colectivo</strong>."
       }
     ],
     images: ["/services/service-4.png","/services/service-5.png"]

@@ -16,7 +16,7 @@ export default function Service() {
       return item.id == id;
     })
     setData(ab)
-  },[])  
+  },[id])  
   
   return (
     <>

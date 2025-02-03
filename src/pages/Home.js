@@ -24,7 +24,8 @@ export default function Home() {
         img={aboutMe.img} 
         content={aboutMe.content}
         order1="order-1"
-        order2="order-2" 
+        order2="order-2"
+        idx="about-me" 
       />
       <Servicios />
       <Contacto />

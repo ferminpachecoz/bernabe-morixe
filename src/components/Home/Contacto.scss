@@ -7,6 +7,15 @@
     padding: 1em;
     box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
     border-radius: 10px;
+    .cont{
+      padding: 3em 2em 3em 3em;
+      ul{
+        li{
+          font-family: var(--font-secondary);
+          font-weight: 300;
+        }
+      }
+    }
     img{
       width: 100%;
       border-radius: 10px;
@@ -24,60 +33,15 @@
       font-size: 16px;
     }
   }
-  .wraperr{
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    padding: 1em;
-    border-radius: 10px;
-    height: 100%;
-    form{
-      label{
-        font-family: var(--font-secondary);
-        color: var(--primary);
-        font-size: 14px;
-      }
-      input{
-        height: 55px;
-      }
-      input, textarea{
-        background-color: #fdfefe;
-        border: 2px solid #dadada;
-        font-family: var(--font-secondary);
-        color: var(--primary);
-        box-shadow: none;
-        border-radius: 6px;
-        padding: 0 15px;
-        font-size: 14px;
-        letter-spacing: 1px;
-      }
-      input:focus,textarea:focus{
-        border: 2px solid var(--accent);
-        outline: none;
-      }
-      button{
-        background-color: #e2e8ec;
-        box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;;
-        font-size: 18px;
-        font-weight: 600;
-        padding: 10px;
-        width: 100%;
-        border: none;
-        color: var(--accent);
-        text-transform: uppercase;
-        border-radius: 10px;
-        transition: color 0.5s ease;
-        transition: background-color 0.5s ease;
-      }
-      button:hover{
-        background-color: var(--mostaza);
-        color: white;
-      }
-    }
-  }
 }
 @media (max-width: 425px){
   .contacto{
     padding: 1em;
     margin-top: 10em;
+    .wrapper{
+      .cont{
+        padding: 2em;
+      }
+    }
   }
 }

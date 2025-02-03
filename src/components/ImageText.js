@@ -4,12 +4,12 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
-export default function ImageText({img, subtitle, title, content, order1, order2}) {
+export default function ImageText({img, subtitle, title, content, order1, order2, idx}) {
   useEffect(() => {
         AOS.init();
       }, []);
   return (
-    <div className='image-text row' id='about-me'>
+    <div className='image-text row' id={idx}>
       <div className={`image ${order1} col-12 col-lg-5`}>
         <img src={img} alt={subtitle} />
       </div>

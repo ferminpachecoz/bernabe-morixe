@@ -1,6 +1,6 @@
 .main-banner{
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   position: relative;
   overflow: hidden;
   margin-top: 60px;
@@ -10,9 +10,10 @@
   }
   .wrapper{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -0%);
+    width: 100%;
     h1{
       margin-bottom: 22px;
       font-family: var(--font-secondary);
