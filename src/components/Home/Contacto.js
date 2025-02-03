@@ -30,7 +30,7 @@ export default function Contacto() {
                 </ul>
               </div>
               <p>Atencion On Line: San Isidro, Bs As, Argentina / Tandil, Bs As, Argentina</p>
-              <p>WhatsApp: +54 9 11 6353-9111</p>
+              <p>WhatsApp <img src="/icons/whatsapp.png" alt="WhatsApp Logo" className='logo-wp' />: +54 9 11 6353-9111</p>
             </div>
           </div>
         </div>
