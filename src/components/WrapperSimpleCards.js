@@ -23,7 +23,7 @@ export default function WrapperSimpleCards({array}) {
             {item.title &&
               <p className='title'>{item.title}</p>
             }
-            <p>{item.text}</p>
+            <p dangerouslySetInnerHTML={{ __html: item.text }}></p>
           </div>
         </div>
         ))

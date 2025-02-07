@@ -19,17 +19,16 @@ export default function Contacto() {
               <img src="foto-perfil-horizontal.jpg" alt="" />
             </div>
             <div className='col-lg-6 col-12 cont'>
-              <p className='title'>Bernabé Morixe</p>
+              <p className='title'>Aníbal Bernabé Morixe</p>
               <p>Psicólogo Clínico</p>
               <div className='d-flex'>
-                <p className='me-3'>Atencion:</p>
+                <p className='me-3'>Atención:</p>
                 <ul>
                   <li>Online</li>
                   <li>Presencial: San Isidro, Bs As, Argentina</li>
                   <li>Presencial: Tandil, Bs As, Argentina</li>
                 </ul>
               </div>
-              <p>Atencion On Line: San Isidro, Bs As, Argentina / Tandil, Bs As, Argentina</p>
               <p>WhatsApp <img src="/icons/whatsapp.png" alt="WhatsApp Logo" className='logo-wp' />: +54 9 11 6353-9111</p>
             </div>
           </div>

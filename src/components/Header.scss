@@ -24,6 +24,7 @@
       .switch-1{
         position: relative;
         .servicios-header{
+          display: none;
           position: absolute;
           top: 45px;
           left: -15px;
@@ -36,6 +37,11 @@
             color: var(--mostaza);
             margin-bottom: 1em;
           }
+        }
+      }
+      .switch-1:hover{
+        .servicios-header{
+          display: block;
         }
       }
     }

@@ -99,36 +99,36 @@ let data = [
   },
   {
     id: 3,
-    title: "Sanación vibracional a distancia con tecnología Cuántica.",
+    title: "Armonización de campo energético a distancia con tecnología Cuántica.",
     subtitle: "Armonización energética a distancia mediante tecnología cuántica para recuperar bienestar.",
     paragraphs: [
       {
         title: "¿Qué ofrece?",
-        content: "Recupera tu equilibrio energético desde cualquier lugar del mundo, sin medicación ni desplazamientos. Nuestro tratamiento de sanación vibracional armoniza y equilibra tus cuerpos energéticos (físico, vital, emocional, mental y espiritual) usando la avanzada tecnología Quantec."
+        content: "<strong>Recupera tu equilibrio energético desde cualquier lugar del mundo, sin medicación ni desplazamientos</strong>. Nuestro tratamiento de sanación vibracional armoniza y equilibra tus cuerpos energéticos (físico, vital, emocional, mental y espiritual) usando la avanzada tecnología Quantec."
       },
       {
         title: "¿Cómo funciona?",
         list: [
           {
-            title: "Energía 24/7",
+            title: "1) Energía 24/7",
             text: "Las vibraciones trabajan en tu campo energético de día y de noche durante el periodo seleccionado.",
             icon: "/icons/energy.png",
             iconHover: "/icons/energy-hover.png",
           },
           {
-            title: "D.I.V.",
+            title: "2) D.I.V.",
             text: "Ingresamos tus datos de identificación vibracional en nuestro equipo Quantec.",
             icon: "/icons/data.png",
             iconHover: "/icons/data-hover.png",
           },
           {
-            title: "Detección",
+            title: "3) Detección",
             text: "El Quantec detecta los desórdenes vibracionales en tu campo energético.",
             icon: "/icons/vibration.png",
             iconHover: "/icons/vibration-hover.png",
           },
           {
-            title: "Programación",
+            title: "4) Programación",
             text: "Programamos nuestro equipo y activamos las vibraciones específicas para armonizar tu campo energético.",
             icon: "/icons/program.png",
             iconHover: "/icons/program-hover.png",
@@ -137,11 +137,11 @@ let data = [
       },
       {
         title: "¿Qué es la sanación vibracional a distancia?",
-        content: "La sanación vibracional a distancia es un tratamiento enfocado en armonizar y equilibrar tus cuerpos energéticos a través de la tecnología cuántica. El Quantec es un equipo capaz de detectar desórdenes en tu campo energético y enviar las vibraciones necesarias para reestablecer tu bienestar, todo de manera remota."
+        content: "La sanación vibracional a distancia es un <strong>tratamiento enfocado en armonizar y equilibrar tus cuerpos energéticos</strong> a través de la tecnología cuántica. El Quantec es un equipo capaz de <strong>detectar desórdenes en tu campo energético y enviar las vibraciones necesarias para reestablecer tu bienestar</strong>, todo de manera remota."
       },
       {
         title: "¿Cómo se aplica la tecnología cuántica en la sanación?",
-        content: "El Quantec opera bajo los principios de la física cuántica, que sostiene que todo en el universo es energía. Cada persona tiene un campo energético único, y cuando ese campo se desequilibra, puede dar lugar a síntomas físicos, emocionales o mentales. Utilizando frecuencias específicas, el Quantec corrige estos desórdenes, permitiendo que el cuerpo vuelva a un estado de equilibrio natural."
+        content: "El Quantec opera bajo los principios de la física cuántica, que sostiene que todo en el universo es energía. <strong>Cada persona tiene un campo energético único, y cuando ese campo se desequilibra, puede dar lugar a síntomas físicos, emocionales o mentales</strong>. Utilizando frecuencias específicas, <strong>el Quantec corrige estos desórdenes, permitiendo que el cuerpo vuelva a un estado de equilibrio natural</strong>."
       },
       {
         title: "Ventajas",
@@ -174,6 +174,8 @@ let data = [
           <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">Personas que atraviesan tratamientos oncológicos (cirugías, quimioterapia, radiación).</li>
           <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">Aquellos con dificultades para conciliar el sueño, que sufren de estrés o ansiedad.</li>
           <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">Pacientes con sistemas inmunológicos debilitados o condiciones crónicas de dolor.</li>
+          <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">Personas que quieran transformar su estado de ser, y desde ahí, ser testigo de cómo la realidad se transforma y cobra un nuevo sentido.</li>
+          <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">Personas de cualquier edad, cualquier condición.</li>
         </ul>
         `
       },

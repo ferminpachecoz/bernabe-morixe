@@ -22,7 +22,7 @@ a:hover, a:focus, a:active {
 }
 .section-title{
   color: var(--primary);
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 1.2;
   margin-top: 15px;

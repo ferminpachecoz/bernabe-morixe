@@ -15,7 +15,7 @@ export default function Servicios() {
       <h2 className='section-title mb-5 mb-lg-0'>Servicios que brindo</h2>
       <div className='row g-3 row-cols-1 row-cols-lg-3 p-0 p-lg-5'>
         <div className='col' data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-center">
-          <Link to="/service/1" >
+          <Link to="/clinica-individual" >
             <div className='wrapper'>
               <div className='image'>
                 <img src="imagen4.jpg" alt="" />
@@ -28,7 +28,7 @@ export default function Servicios() {
           </Link>
         </div>
         <div className='col' data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-center">
-          <Link to="/service/2">
+          <Link to="/talleres-y-espacios-grupales">
             <div className='wrapper'>
               <div className='image'>
                 <img src="imagen3.jpg" alt="" />
@@ -41,13 +41,13 @@ export default function Servicios() {
           </Link>
         </div>
         <div className='col' data-aos="fade-up" data-aos-duration="2500" data-aos-anchor-placement="top-center">
-          <Link to="/service/3">
+          <Link to="/armonización-de-campo-energético">
             <div className='wrapper'>
               <div className='image'>
                 <img src="services/service-7.png" alt="" />
               </div>
               <div className='content'>
-                <h3 className='title'>Sanación vibracional a distancia con tecnología Cuántica.</h3>
+                <h3 className='title'>Armonización de campo energético a distancia con tecnología Cuántica</h3>
                 <p className='desscription'>Armonización energética a distancia mediante tecnología cuántica para recuperar bienestar.</p>
               </div>
             </div>

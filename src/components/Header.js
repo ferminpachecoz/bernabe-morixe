@@ -5,7 +5,6 @@ import { HashLink } from 'react-router-hash-link';
 
 export default function Header() {
   const [display,setDisplay] = useState(false)
-  const [servicios, setServicios] = useState(false)
 
   return (
     <div className='header row g-0 align-items-center'>
@@ -25,27 +24,25 @@ export default function Header() {
           <HashLink to="/#mision" className='nav-link'>
             Mision
           </HashLink>
-          <HashLink to="#" className='nav-link switch-1' onClick={()=>setServicios(!servicios)}>
+          <HashLink to="/#servicios" className='nav-link switch-1'>
             Servicios
-            {servicios &&
-              <div className='servicios-header'>
-                <HashLink to="/service/1">Clínica Individual</HashLink>
-                <HashLink to="/service/2">Talleres y Espacios Grupales</HashLink>
-                <HashLink to="/service/3">Sanación vibracional</HashLink>
-              </div>
-            }
+            <div className='servicios-header'>
+              <HashLink to="/clinica-individual">Clínica Individual</HashLink>
+              <HashLink to="/talleres-y-espacios-grupales">Talleres y Espacios Grupales</HashLink>
+              <HashLink to="/armonización-de-campo-energético">Tratamiento vibracional</HashLink>
+            </div>
           </HashLink>
           <HashLink to="/#about-me" className='nav-link'>
             Sobre mi
           </HashLink>
-          <HashLink to="/service/1" className='nav-link switch-2'>
+          <HashLink to="/clinica-individual" className='nav-link switch-2'>
             Clínica Individual
           </HashLink>
-          <HashLink to="/service/2" className='nav-link switch-2'>
+          <HashLink to="/talleres-y-espacios-grupales" className='nav-link switch-2'>
             Talleres y Espacio Grupales
           </HashLink>
-          <HashLink to="/service/3" className='nav-link switch-2'>
-            Sanación vibracional a distancia con tecnología Cuántica.
+          <HashLink to="/armonización-de-campo-energético" className='nav-link switch-2'>
+            Armonización De Campo Energético
           </HashLink>
           <HashLink to="/#contacto" className='nav-link'>
             Contacto
