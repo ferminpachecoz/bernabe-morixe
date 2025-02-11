@@ -29,7 +29,7 @@ export default function Header() {
             <div className='servicios-header'>
               <HashLink to="/clinica-individual">Clínica Individual</HashLink>
               <HashLink to="/talleres-y-espacios-grupales">Talleres y Espacios Grupales</HashLink>
-              <HashLink to="/armonización-de-campo-energético">Tratamiento vibracional</HashLink>
+              <HashLink to="/armonización-de-campo-energético">Armonización de Campo Energético</HashLink>
             </div>
           </HashLink>
           <HashLink to="/#about-me" className='nav-link'>

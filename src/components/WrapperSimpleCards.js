@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
-export default function WrapperSimpleCards({array}) {
+export default function WrapperSimpleCards({array, cols}) {
   console.log(array);
 
   useEffect(() => {
@@ -12,7 +12,7 @@ export default function WrapperSimpleCards({array}) {
   }, []);
   
   return (
-    <div className='row row-cols-lg-3 row-cols-1 g-5 mt-5 px-lg-5 px-0 wrapper-simple-cards'>
+    <div className={`row ${cols?`row-cols-lg-${cols}`:"row-cols-lg-3"} row-cols-1 g-5 mt-5 px-lg-5 px-0 wrapper-simple-cards`}>
       {array &&
         array.map((item, ix)=>(
         <div className='col'>

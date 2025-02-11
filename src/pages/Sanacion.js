@@ -8,28 +8,28 @@ import Banner from '../components/Service/Banner'
 export default function Sanacion() {
   let array=[
     {
-      title: "1) Energía 24/7",
-      text: "Las vibraciones trabajan en tu campo energético de día y de noche durante el periodo seleccionado.",
-      icon: "/icons/energy.png",
-      iconHover: "/icons/energy-hover.png",
-    },
-    {
-      title: "2) D.I.V.",
+      title: "1) D.I.V.",
       text: "Ingresamos tus datos de identificación vibracional en nuestro equipo Quantec.",
       icon: "/icons/data.png",
       iconHover: "/icons/data-hover.png",
     },
     {
-      title: "3) Detección",
+      title: "2) Detección",
       text: "El Quantec detecta los desórdenes vibracionales en tu campo energético.",
       icon: "/icons/vibration.png",
       iconHover: "/icons/vibration-hover.png",
     },
     {
-      title: "4) Programación",
+      title: "3) Programación",
       text: "Programamos nuestro equipo y activamos las vibraciones específicas para armonizar tu campo energético.",
       icon: "/icons/program.png",
       iconHover: "/icons/program-hover.png",
+    },
+    {
+      title: "4) Energía 24/7",
+      text: "Las vibraciones trabajan en tu campo energético de día y de noche durante el periodo seleccionado.",
+      icon: "/icons/energy.png",
+      iconHover: "/icons/energy-hover.png",
     },
   ]
   let array1=[
@@ -79,7 +79,7 @@ export default function Sanacion() {
   return (
     <>
       <Header />
-      <Banner title="Armonización de campo energético a distancia con tecnología Cuántica." />
+      <Banner title="Armonización de campo energético a distancia con Tecnología Cuántica." />
       <ImageText
         img={"/services/service-6.jpg"}
         title={"¿Qué ofrece?"}
@@ -103,7 +103,7 @@ export default function Sanacion() {
       />
       <div className='pad1'>
         <p className='section-title' style={{textAlign:"center"}}>¿Cómo funciona?</p>
-        <WrapperSimpleCards array={array}/>
+        <WrapperSimpleCards array={array} cols="2"/>
       </div>
       <div className='pad1'>
         <p className='section-title' style={{textAlign:"center"}}>Ventajas</p>
