@@ -56,24 +56,24 @@ export default function Sanacion() {
     {
       title:"1) Ondulaciones Cuánticas",
       text:"A través de esta avanzada tecnología, se emiten frecuencias específicas que actúan sobre tu campo vibracional. Estas ondas están diseñadas para equilibrar y revitalizar tu energía, promoviendo un estado de bienestar y plenitud.",
-      icon:"/icons/day-and-night.png"
+      icon:"/icons/wind.png"
     },
     {
       title:"2) Trabajo de transformación personal",
       text:"Si lo quisieras, podes potenciar el trabajo ondulatorio recibido, alienado tu Ser y tu voluntad a través de <strong>una guía diseñada específicamente para este proceso.</strong>",
-      icon:"/icons/vibration.png"
+      icon:"/icons/heart.png"
     },
   ]
   let array3=[
     {
       title:"Secuencia de Meditaciones",
       text:"Como parte del proceso, recibirás una serie de meditaciones guiadas que complementan las sesiones. Estas prácticas están diseñadas para <strong>facilitar tu conexión interna, reducir el estrés y potenciar los efectos del tratamiento</strong>.",
-      icon:"/icons/day-and-night.png"
+      icon:"/icons/meditation.png"
     },
     {
       title:"Cuadernillo de Actividades",
       text:"Para profundizar en tu experiencia, se te proporcionará un <strong>cuadernillo con actividades prácticas y reflexivas</strong>. Estas herramientas te ayudarán a integrar lo trabajado en el Quantec y a <strong>cultivar hábitos que apoyen tu bienestar a largo plazo</strong>.",
-      icon:"/icons/vibration.png"
+      icon:"/icons/book.png"
     },
   ]
   return (
