@@ -36,6 +36,10 @@
         line-height: 28px;
         transition: 0.4s ease;
       }
+      .link-ser{
+        font-weight: 600;
+        color: var(--accent);
+      }
     }
   }
   .wrapper:hover{
@@ -46,6 +50,9 @@
       }
       p{
         color: white;
+      }
+      .link-ser{
+        color: var(--mostaza);
       }
     }
   }

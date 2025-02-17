@@ -23,7 +23,7 @@ export default function Servicios() {
               <div className='content'>
                 <h3 className='title'>Clínica Individual</h3>
                 <p className='desscription'>Espacio personal para superar desafíos emocionales y conectar con propósito y bienestar.</p>
-                <Link to="/clinica-individual" >Mas información</Link>
+                <Link to="/clinica-individual" className='link-ser'>Mas información</Link>
               </div>
             </div>
           </Link>
@@ -37,7 +37,7 @@ export default function Servicios() {
               <div className='content'>
                 <h3 className='title'>Talleres y Espacio Grupales</h3>
                 <p className='desscription'>Dinámicas participativas para el aprendizaje, apoyo mutuo y crecimiento colectivo.</p>
-                <Link to="/talleres-y-espacios-grupales">Mas información</Link>
+                <Link to="/talleres-y-espacios-grupales" className='link-ser'>Mas información</Link>
               </div>
             </div>
           </Link>
@@ -51,7 +51,7 @@ export default function Servicios() {
               <div className='content'>
                 <h3 className='title'>Armonización de campo energético a distancia con tecnología Cuántica</h3>
                 <p className='desscription'>Armonización energética a distancia mediante tecnología cuántica para recuperar bienestar.</p>
-                <Link to="/armonización-de-campo-energético">Mas información</Link>
+                <Link to="/armonización-de-campo-energético" className='link-ser'>Mas información</Link>
               </div>
             </div>
           </Link>

@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import ImageText from '../components/ImageText'
 import WrapperSimpleCards from '../components/WrapperSimpleCards'
 import Banner from '../components/Service/Banner'
+import "./Sanacion.scss"
 
 export default function Sanacion() {
   let array=[
@@ -66,6 +67,11 @@ export default function Sanacion() {
   ]
   let array3=[
     {
+      title: "Videos explicativos",
+      text: "A lo largo del tratamiento, tendrás acceso a una serie de videos diseñados para brindarte una comprensión más profunda de cómo los <strong>descubrimientos sobre la física cuántica pueden ayudarnos a mejorar significativamente nuestra calidad de vida.</strong>",
+      icon: "/icons/home.png"
+    },
+    {
       title:"Secuencia de Meditaciones",
       text:"Como parte del proceso, recibirás una serie de meditaciones guiadas que complementan las sesiones. Estas prácticas están diseñadas para <strong>facilitar tu conexión interna, reducir el estrés y potenciar los efectos del tratamiento</strong>.",
       icon:"/icons/meditation.png"
@@ -80,6 +86,11 @@ export default function Sanacion() {
     <>
       <Header />
       <Banner title="Armonización de campo energético a distancia con Tecnología Cuántica." />
+      <div className='video-container'>
+        <iframe src="https://www.youtube.com/embed/pJR2l9UzTW4" 
+  frameborder="0" allowfullscreen></iframe>
+      </div>
+
       <ImageText
         img={"/services/service-6.jpg"}
         title={"¿Qué ofrece?"}
