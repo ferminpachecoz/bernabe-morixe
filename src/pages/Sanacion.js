@@ -99,7 +99,7 @@ export default function Sanacion() {
         order2="order-lg-2"
       />
       <ImageText
-        img={"/services/service-7.png"}
+        img={"/services/service-9.jpg"}
         title={"¿Qué es la armonización de campo energético a distancia?"}
         content={"La armonización de campo energético a distancia es un <strong>tratamiento enfocado en armonizar y equilibrar tus cuerpos energéticos</strong> a través de la tecnología cuántica. El Quantec es un equipo capaz de <strong>detectar desórdenes en tu campo energético y enviar las vibraciones necesarias para reestablecer tu bienestar</strong>, todo de manera remota."}
         order1="order-lg-2"
@@ -131,21 +131,21 @@ export default function Sanacion() {
       </div>
       <p className='section-title' style={{textAlign:"center"}}>¿Por qué un tratamiento basado en la física cuántica puede ayudarnos a nuestra mejora personal?</p>
       <ImageText
-        img={"/services/service-9.png"}
+        img={"/services/service-11.jpg"}
         title={"1) El campo cuántico: La energía que sana y equilibra"}
         content={"Los últimos descubrimientos de la física Cuántica (a diferencia del modelo Newtoneano), han demostrado que a nivel molecular, la materia no es sólida, sino que se sostiene en un campo energético. Este campo, lleno de energía potencial infinita, es la matriz de la creación, donde todas las posibilidades existen antes de manifestarse en la realidad. Al comprender que <strong>esta energía y sus posibilidades están presente en todo momento, podemos abrirnos a ella para restaurar el equilibrio y sanar nuestros cuerpos energéticos</strong>."}
         order1="order-lg-1"
         order2="order-lg-2"
       />
       <ImageText
-        img={"/services/service-10.jpg"}
+        img={"/services/service-12.jpg"}
         title={"2) La capacidad de crear y diseñar una forma de vida desde una intencionalidad clara e integrada a nuestro Ser"}
         content={"La física cuántica nos enseña que <strong>el observador influye en la realidad: donde ponemos nuestra atención e intención, generamos cambios</strong>. Al alinear nuestro Ser con nuestra intención  (nuestros valores, propósito y esencia), <strong>podemos diseñar una vida que refleja nuestras aspiraciones más profundas</strong>.<p>Esto implica:</p><ul><li>Tomar decisiones conscientes que resuenen con nuestro bienestar.</li><li>Ser creativos en la forma en que abordamos nuestras metas, sabiendo que tenemos el poder de transformar nuestra realidad.</li><li>Vivir con propósito, dejando que nuestras intenciones claras guíen nuestra vida hacia un estado de plenitud.</li></ul>"}
         order1="order-lg-2"
         order2="order-lg-1"
       />
       <ImageText
-        img={"/services/service-10.jpg"}
+        img={"/services/service-13.jpg"}
         title={"3) La interconexión de todo lo que es y las oportunidades de transformación (el campo y las sincronías)"}
         content={"El <strong>principio de entrelazamiento cuántico demuestra que todo en el universo está conectado</strong>. Esta interconexión nos recuerda que nuestras acciones, pensamientos y emociones afectan no solo nuestra experiencia personal, sino también la de quienes nos rodean y nuestro entorno.<p><strong>Reconocer esta conexión nos permite:</strong></p><ul><li>Ser más conscientes de las energías que emitimos y recibimos.</li><li>Abrirnos a oportunidades inesperadas de crecimiento y transformación al estar en sintonía con el flujo universal.</li><li>Colaborar con otros desde un lugar de empatía y unidad, sabiendo que nuestras relaciones son un reflejo de nuestra energía interna.</li></ul>"}
         order1="order-lg-1"
@@ -155,7 +155,7 @@ export default function Sanacion() {
       <p className='section-title' style={{textAlign:"center", marginbottom:"15px"}}>INTEGRANDO TECNOLOGÍA E INTENCIONALIDAD TENEMOS LA POSIBILIDAD DE TRANSFORMARNOS Y VIVIR UNA VIDA EN PLENITUD, LLENA DE SENTIDO Y VITALIDAD.</p>
       <hr style={{width:"80%", margin:"auto"}} />
       <ImageText
-        img={"/services/service-1.png"}
+        img={"/services/service-14.jpg"}
         title={"Casos de uso"}
         content={`<ul>
           <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">Pacientes en internación hospitalaria que buscan complementar su recuperación.</li>
@@ -169,7 +169,7 @@ export default function Sanacion() {
         order2="order-lg-2"
       />
       <ImageText 
-        img={"/services/service-1.png"}
+        img={"/services/service-15.jpg"}
         title={"Resultados esperados"}
         content={`<ul>
           <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">

@@ -18,7 +18,7 @@ export default function Servicios() {
           <Link to="/clinica-individual" >
             <div className='wrapper'>
               <div className='image'>
-                <img src="imagen4.jpg" alt="" />
+                <img src="imagen44.jpg" alt="" />
               </div>
               <div className='content'>
                 <h3 className='title'>Clínica Individual</h3>
@@ -32,7 +32,7 @@ export default function Servicios() {
           <Link to="/talleres-y-espacios-grupales">
             <div className='wrapper'>
               <div className='image'>
-                <img src="imagen3.jpg" alt="" />
+                <img src="imagen6.jpg" alt="" />
               </div>
               <div className='content'>
                 <h3 className='title'>Talleres y Espacio Grupales</h3>
@@ -46,10 +46,10 @@ export default function Servicios() {
           <Link to="/armonización-de-campo-energético">
             <div className='wrapper'>
               <div className='image'>
-                <img src="services/service-7.png" alt="" />
+                <img src="imagen3.jpg" alt="" />
               </div>
               <div className='content'>
-                <h3 className='title'>Armonización de campo energético a distancia con tecnología Cuántica</h3>
+                <h3 className='title'>Armonización de campo energético a distancia con Tecnología Cuántica</h3>
                 <p className='desscription'>Armonización energética a distancia mediante tecnología cuántica para recuperar bienestar.</p>
                 <Link to="/armonización-de-campo-energético" className='link-ser'>Mas información</Link>
               </div>

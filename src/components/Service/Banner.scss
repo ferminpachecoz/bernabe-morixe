@@ -1,16 +1,16 @@
 .banner{
-  background-image: url("https://hostiko.com/layout91/wp-content/uploads/2024/05/domain-sec-bg.png");
   background-size: cover;
   background-position: center;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   padding: 0px 20%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
   h1{
     text-align: center;
-    color: var(--primary);
+    color: #32597a;
     font-size: 60px;
     font-weight: 700;
     line-height: 1.2;

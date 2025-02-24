@@ -50,7 +50,7 @@ export default function Grupo() {
         <WrapperSimpleCards array={array} />
       </div>
       <ImageText 
-        img={"/services/service-7.png"}
+        img={"/services/service-7.jpg"}
         title={"¿Cómo funciona?"}
         content={"Cada encuentro se diseña con un enfoque <strong>participativo y reflexivo</strong>, adaptado a las necesidades del grupo, con el objetivo de facilitar un espacio de <strong>crecimiento personal y colectivo</strong>."}
         order1="order-lg-2"
