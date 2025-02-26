@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import ImageText from '../components/ImageText'
 import WrapperSimpleCards from '../components/WrapperSimpleCards'
 import Banner from '../components/Service/Banner'
+import { motion } from 'framer-motion'
 
 export default function Grupo() {
   let array=[
@@ -34,29 +35,34 @@ export default function Grupo() {
       },
   ]
   return (
-    <>
-      <Header />
-      <Banner title="Talleres y Espacio Grupales"/>
-      <ImageText 
-        img={"/services/service-4.png"}
-        title={"¿Qué son?"}
-        subtitle={"Dinámicas participativas para el aprendizaje, apoyo mutuo y crecimiento colectivo."}
-        content={"Los talleres y espacios grupales proponen una oportunidad única para explorar temas relevantes, <strong>aprender herramientas prácticas</strong> y <strong>nutrirnos de las experiencias compartidas</strong> con otros. La dinámica grupal no solo facilita el aprendizaje, sino que también fomenta la <strong>empatía</strong>, el <strong>apoyo</strong> mutuo y la posibilidad de crecer de la diversidad de <strong>miradas y perspectivas</strong>."}
-        order1="order-lg-1"
-        order2="order-lg-2"
-      />
-      <div>
-        <p className='section-title' style={{textAlign:"center"}}>Experiencia en diversas temáticas como:</p>
-        <WrapperSimpleCards array={array} />
-      </div>
-      <ImageText 
-        img={"/services/service-7.jpg"}
-        title={"¿Cómo funciona?"}
-        content={"Cada encuentro se diseña con un enfoque <strong>participativo y reflexivo</strong>, adaptado a las necesidades del grupo, con el objetivo de facilitar un espacio de <strong>crecimiento personal y colectivo</strong>."}
-        order1="order-lg-2"
-        order2="order-lg-1"
-      />
-      <Footer />
-    </>
+    <motion.div
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+      transition={{duration: 1.3}}
+    >
+        <Header />
+        <Banner title="Talleres y Espacio Grupales"/>
+        <ImageText 
+          img={"/services/service-4.png"}
+          title={"¿Qué son?"}
+          subtitle={"Dinámicas participativas para el aprendizaje, apoyo mutuo y crecimiento colectivo."}
+          content={"Los talleres y espacios grupales proponen una oportunidad única para explorar temas relevantes, <strong>aprender herramientas prácticas</strong> y <strong>nutrirnos de las experiencias compartidas</strong> con otros. La dinámica grupal no solo facilita el aprendizaje, sino que también fomenta la <strong>empatía</strong>, el <strong>apoyo</strong> mutuo y la posibilidad de crecer de la diversidad de <strong>miradas y perspectivas</strong>."}
+          order1="order-lg-1"
+          order2="order-lg-2"
+        />
+        <div>
+          <p className='section-title' style={{textAlign:"center"}}>Experiencia en diversas temáticas como:</p>
+          <WrapperSimpleCards array={array} />
+        </div>
+        <ImageText 
+          img={"/services/service-7.jpg"}
+          title={"¿Cómo funciona?"}
+          content={"Cada encuentro se diseña con un enfoque <strong>participativo y reflexivo</strong>, adaptado a las necesidades del grupo, con el objetivo de facilitar un espacio de <strong>crecimiento personal y colectivo</strong>."}
+          order1="order-lg-2"
+          order2="order-lg-1"
+        />
+        <Footer />
+    </motion.div>
   )
 }

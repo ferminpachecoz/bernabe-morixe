@@ -4,6 +4,8 @@ import Banner from '../components/Service/Banner'
 import WrapperSimpleCards from '../components/WrapperSimpleCards'
 import ImageText from '../components/ImageText'
 import Footer from '../components/Footer'
+import { motion } from 'framer-motion'
+
 
 export default function Clinica() {
   let array=[
@@ -34,7 +36,13 @@ export default function Clinica() {
     },
   ]
   return (
-    <>
+    <motion.div
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+      transition={{duration: 1.3}}
+    >
+
       <Header />
       <Banner title={"Clínica Individual"} />
       <ImageText 
@@ -70,6 +78,6 @@ export default function Clinica() {
         order2="order-lg-1"
       />
       <Footer />
-    </>
+    </motion.div>
   )
 }

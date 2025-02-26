@@ -5,6 +5,7 @@ import ImageText from '../components/ImageText'
 import WrapperSimpleCards from '../components/WrapperSimpleCards'
 import Banner from '../components/Service/Banner'
 import "./Sanacion.scss"
+import { motion } from 'framer-motion'
 
 export default function Sanacion() {
   let array=[
@@ -83,7 +84,13 @@ export default function Sanacion() {
     },
   ]
   return (
-    <>
+    <motion.div
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+      transition={{duration: 1.3}}
+    >
+
       <Header />
       <Banner title="Armonización de campo energético a distancia con Tecnología Cuántica." />
       <div className='video-container'>
@@ -183,6 +190,7 @@ export default function Sanacion() {
         order2={"order-lg-1"}
       />
       <Footer />
-    </>
+    </motion.div>
+  
   )
 }
