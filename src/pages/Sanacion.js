@@ -136,7 +136,7 @@ export default function Sanacion() {
         <p className='section-title' style={{textAlign:"center"}}>¿En qué consiste la guía?</p>
         <WrapperSimpleCards array={array3} />
       </div>
-      <p className='section-title' style={{textAlign:"center"}}>¿Por qué un tratamiento basado en la física cuántica puede ayudarnos a nuestra mejora personal?</p>
+      <p className='section-title' style={{textAlign:"center", marginTop: "3em"}}>¿Por qué un tratamiento basado en la física cuántica puede ayudarnos a nuestra mejora personal?</p>
       <ImageText
         img={"/services/service-11.jpg"}
         title={"1) El campo cuántico: La energía que sana y equilibra"}
