@@ -24,14 +24,14 @@ export default function Header() {
           <HashLink to="/#mision" className='nav-link'>
             Mision
           </HashLink>
-          <HashLink to="/#servicios" className='nav-link switch-1'>
+          {/* <HashLink to="/#servicios" className='nav-link switch-1'>
             Servicios
             <div className='servicios-header'>
               <HashLink to="/clinica-individual">Clínica Individual</HashLink>
               <HashLink to="/talleres-y-espacios-grupales">Talleres y Espacios Grupales</HashLink>
               <HashLink to="/armonización-de-campo-energético">Armonización de Campo Energético</HashLink>
             </div>
-          </HashLink>
+          </HashLink> */}
           <HashLink to="/#about-me" className='nav-link'>
             Sobre mi
           </HashLink>

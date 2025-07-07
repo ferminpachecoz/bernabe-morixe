@@ -33,7 +33,7 @@ export default function Home() {
         order2="order-2"
         idx="about-me" 
       />
-      <Servicios />
+      {/* <Servicios /> */}
       <Contacto />
       <Footer />
     </motion.div>
