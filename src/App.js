@@ -14,9 +14,9 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route exact={true} path='/' element={<Home />} />
-        <Route path='/clinica-individual' element={<Clinica />} />
+        {/* <Route path='/clinica-individual' element={<Clinica />} />
         <Route path='/talleres-y-espacios-grupales' element={<Grupo />} />
-        <Route path='/armonización-de-campo-energético' element={<Sanacion />} />
+        <Route path='/armonización-de-campo-energético' element={<Sanacion />} /> */}
       </Routes>
     </>
   );
