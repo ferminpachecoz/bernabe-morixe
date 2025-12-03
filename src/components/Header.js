@@ -35,7 +35,7 @@ export default function Header() {
           <HashLink to="/#about-me" className='nav-link'>
             Sobre mi
           </HashLink>
-          <HashLink to="/clinica-individual" className='nav-link switch-2'>
+          {/* <HashLink to="/clinica-individual" className='nav-link switch-2'>
             Clínica Individual
           </HashLink>
           <HashLink to="/talleres-y-espacios-grupales" className='nav-link switch-2'>
@@ -43,7 +43,7 @@ export default function Header() {
           </HashLink>
           <HashLink to="/armonización-de-campo-energético" className='nav-link switch-2'>
             Armonización De Campo Energético
-          </HashLink>
+          </HashLink> */}
           <HashLink to="/#contacto" className='nav-link'>
             Contacto
           </HashLink>
